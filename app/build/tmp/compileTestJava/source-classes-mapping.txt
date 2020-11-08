@@ -1,0 +1,4 @@
+MyJavaProg/ConsoleTest.java
+ MyJavaProg.ConsoleTest
+MyJavaProg/GCDTest.java
+ MyJavaProg.GCDTest
