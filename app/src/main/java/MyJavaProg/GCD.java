@@ -3,6 +3,16 @@ package MyJavaProg;
 public class GCD {
 
     public int calcEuclidSubtractionRecursive(int x, int y){
+
+        x = Math.abs(x);
+        y = Math.abs(y);
+
+        if(x == 0){
+            return y;
+        }else if (y==0){
+            return x;
+        }
+
         if(x == y){
             return x;
         }
@@ -14,6 +24,10 @@ public class GCD {
     }
 
     public int calcEuclidSubtractionIterative(int x, int y){
+
+        x = Math.abs(x);
+        y = Math.abs(y);
+
         if (x == 0) {
             return y;
         }
@@ -28,6 +42,15 @@ public class GCD {
 
     public int calcEuclidDivisionRestRecursive(int x, int y) {
 
+        x = Math.abs(x);
+        y = Math.abs(y);
+
+        if(x == 0){
+            return y;
+        }else if (y==0){
+            return x;
+        }
+
         if (x % y == 0){
             return y;
         }else{
@@ -36,6 +59,9 @@ public class GCD {
     }
 
     public int calcEuclidDivisionRestIterative(int x, int y){
+
+        x = Math.abs(x);
+        y = Math.abs(y);
 
         while(y != 0){
             int z = x % y;
