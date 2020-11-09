@@ -33,3 +33,9 @@ application {
  run {
     standardInput = System.in
  }
+
+ test {
+     testLogging {
+         events "passed", "skipped", "failed", "standardOut", "standardError"
+     }
+ }

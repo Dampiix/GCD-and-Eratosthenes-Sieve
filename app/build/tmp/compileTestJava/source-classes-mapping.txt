@@ -1,4 +1,6 @@
-MyJavaProg/ConsoleTest.java
- MyJavaProg.ConsoleTest
+MyJavaProg/SieveOfEratosthenesTest.java
+ MyJavaProg.SieveOfEratosthenesTest
 MyJavaProg/GCDTest.java
  MyJavaProg.GCDTest
+MyJavaProg/ConsoleTest.java
+ MyJavaProg.ConsoleTest

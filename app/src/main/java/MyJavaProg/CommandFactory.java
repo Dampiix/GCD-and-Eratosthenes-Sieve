@@ -110,6 +110,9 @@ public class CommandFactory {
         };
     }
 
+    
+
+
     private static ICommand createExitCommand() {
         return new ICommand() {
             @Override
