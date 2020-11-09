@@ -1,12 +1,13 @@
 package MyJavaProg;
 
+import javax.swing.*;
 import java.util.LinkedList;
 
 public class App {
 
-    static String Vorname = " Denis ";
-    static String Name = " Latt ";
-    static String MatrNr = " 568344 ";
+    static String Vorname = " " + Console.readStringFromStdIn("Enter prename: ");
+    static String Name =  " " + Console.readStringFromStdIn("Enter surname: ");
+    static String MatrNr =" " + Console.readStringFromStdIn("Enter matriculation number: ");
 
     public static void main(String[] args) {
         LinkedList<ICommand> commands = CommandFactory.returnCommandList();
@@ -23,7 +24,7 @@ public class App {
     static private String buildCLIMenu(LinkedList<ICommand> commands) {
         StringBuilder builder = new StringBuilder();
         builder.append(System.lineSeparator());
-        builder.append("Console-Application: Exercise-1" +Vorname+  Name + MatrNr +  System.lineSeparator());
+        builder.append("Console-Application: Exercise-1" + Vorname  + Name + MatrNr+  System.lineSeparator());
         builder.append(System.lineSeparator());
         for (int i = 1; i < commands.size(); i++) {
             ICommand cmd = commands.get(i);

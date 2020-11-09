@@ -17,6 +17,7 @@ public class CommandFactory {
         list.add(createEuclidDivisionRestRecursive());
         list.add(createEuclidDivisionRestIterative());
         list.add(createSieveOfEratosthenes());
+        list.add(createReadProperties());
 
         return list;
     }
@@ -110,6 +111,16 @@ public class CommandFactory {
         };
     }
 
+    static private ICommand createReadProperties(){
+        return new ICommand(){
+            @Override
+            public String execute(){
+                return "TODO: implement whatever this has to do";
+            }
+            @Override
+            public String description(){ return "Read properties like surname, prename, x and y.";}
+        };
+    }
 
 
 
