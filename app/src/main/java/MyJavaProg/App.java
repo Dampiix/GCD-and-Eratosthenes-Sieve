@@ -5,9 +5,9 @@ import java.util.LinkedList;
 
 public class App {
 
-    static String Vorname = " Denis";
-    static String Name =  " Latt";
-    static String MatrNr =" 568344 ";
+    public static String Vorname = " Denis";
+    public static String Name =  " Latt";
+    public static String MatrNr =" 568344 ";
 
     public static void main(String[] args) {
         LinkedList<ICommand> commands = CommandFactory.returnCommandList();

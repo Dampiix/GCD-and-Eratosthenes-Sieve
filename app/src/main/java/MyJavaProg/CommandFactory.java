@@ -115,7 +115,11 @@ public class CommandFactory {
         return new ICommand(){
             @Override
             public String execute(){
-                return "TODO: implement whatever this has to do";
+
+                ReadProperties rp = new ReadProperties();
+                rp.readProperties();
+
+                return "Properties Set";
             }
             @Override
             public String description(){ return "Read properties like surname, prename, x and y.";}

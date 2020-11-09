@@ -2,12 +2,12 @@ MyJavaProg/SieveOfEratosthenes.java
  MyJavaProg.SieveOfEratosthenes
 MyJavaProg/ICommand.java
  MyJavaProg.ICommand
-MyJavaProg/Console.java
- MyJavaProg.Console
-MyJavaProg/App.java
- MyJavaProg.App
 MyJavaProg/GCD.java
  MyJavaProg.GCD
+MyJavaProg/App.java
+ MyJavaProg.App
+MyJavaProg/Console.java
+ MyJavaProg.Console
 MyJavaProg/CommandFactory.java
  MyJavaProg.CommandFactory
  MyJavaProg.CommandFactory$1
@@ -17,3 +17,5 @@ MyJavaProg/CommandFactory.java
  MyJavaProg.CommandFactory$5
  MyJavaProg.CommandFactory$6
  MyJavaProg.CommandFactory$7
+MyJavaProg/ReadProperties.java
+ MyJavaProg.ReadProperties
