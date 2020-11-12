@@ -15,9 +15,6 @@ public class App {
             System.out.println(buildCLIMenu(commands));
             ICommand selectedCMD = selectCommand(commands);
             System.out.println(selectedCMD.execute());
-            // or
-            // System.out.println(buildCLIMenu(commands));
-            // System.out.println(selectCommand(commands).execute());;
         } while (true);
     }
 
