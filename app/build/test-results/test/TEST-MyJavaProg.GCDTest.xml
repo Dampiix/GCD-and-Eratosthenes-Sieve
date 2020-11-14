@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyJavaProg.GCDTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2020-11-12T09:56:57" hostname="DESKTOP-2MH8R2I" time="0.004">
+<testsuite name="MyJavaProg.GCDTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2020-11-14T14:27:48" hostname="DESKTOP-2MH8R2I" time="0.005">
   <properties/>
   <testcase name="euclidSubIte_negative_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubIte_negative_Numbers_2" classname="MyJavaProg.GCDTest" time="0.0"/>
-  <testcase name="euclidSubIte_negative_Numbers_3" classname="MyJavaProg.GCDTest" time="0.001"/>
+  <testcase name="euclidSubIte_negative_Numbers_3" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubRec_one_Zero_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubRec_one_Zero_2" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubIte_positive_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
@@ -11,12 +11,12 @@
   <testcase name="euclidSubIte_one_Zero_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubIte_one_Zero_2" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubRec_negative_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
-  <testcase name="euclidSubRec_negative_Numbers_2" classname="MyJavaProg.GCDTest" time="0.0"/>
+  <testcase name="euclidSubRec_negative_Numbers_2" classname="MyJavaProg.GCDTest" time="0.001"/>
   <testcase name="euclidSubRec_negative_Numbers_3" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_negative_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_negative_Numbers_2" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_negative_Numbers_3" classname="MyJavaProg.GCDTest" time="0.0"/>
-  <testcase name="euclidSubRec_positive_Numbers_1" classname="MyJavaProg.GCDTest" time="0.001"/>
+  <testcase name="euclidSubRec_positive_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivRec_two_Zeros" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidSubIte_two_Zeros" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_positive_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
@@ -26,7 +26,7 @@
   <testcase name="euclidDivRec_positive_Numbers_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_two_Zeros" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivRec_one_Zero_1" classname="MyJavaProg.GCDTest" time="0.0"/>
-  <testcase name="euclidDivRec_one_Zero_2" classname="MyJavaProg.GCDTest" time="0.0"/>
+  <testcase name="euclidDivRec_one_Zero_2" classname="MyJavaProg.GCDTest" time="0.001"/>
   <testcase name="euclidDivIte_one_Zero_1" classname="MyJavaProg.GCDTest" time="0.0"/>
   <testcase name="euclidDivIte_one_Zero_2" classname="MyJavaProg.GCDTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

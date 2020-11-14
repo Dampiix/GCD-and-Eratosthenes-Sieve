@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyJavaProg.SieveOfEratosthenesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-12T09:56:57" hostname="DESKTOP-2MH8R2I" time="0.002">
+<testsuite name="MyJavaProg.SieveOfEratosthenesTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-14T14:27:48" hostname="DESKTOP-2MH8R2I" time="0.001">
   <properties/>
-  <testcase name="sieveTestSmall_positive" classname="MyJavaProg.SieveOfEratosthenesTest" time="0.002"/>
+  <testcase name="sieveTestSmall_positive" classname="MyJavaProg.SieveOfEratosthenesTest" time="0.001"/>
   <testcase name="sieveTestBig_positive" classname="MyJavaProg.SieveOfEratosthenesTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
